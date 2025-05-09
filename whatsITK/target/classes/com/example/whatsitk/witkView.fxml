@@ -13,7 +13,7 @@
 
     <Button text="New Groceries!" onAction="#onHelloButtonClick"/>
     <Label fx:id="welcomeText"/>
-    <Label text="Grocery Item"/>
+    <Label text="Grocery Item: " />
     <Label fx:id="kitCat"/>
     <Button text="Pantry" onAction="#onPantryButtonClick"/>
     <Button text="Fridge" onAction="#onFridgeButtonClick"/>

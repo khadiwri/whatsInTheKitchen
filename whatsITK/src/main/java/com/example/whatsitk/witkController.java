@@ -5,6 +5,7 @@ import javafx.scene.control.Label;
 import javafx.scene.control.TextField;
 
 import java.awt.event.ActionEvent;
+import java.util.Scanner;
 
 public class witkController {
     @FXML
@@ -16,7 +17,8 @@ public class witkController {
 
     @FXML
     protected void onHelloButtonClick() {
-        welcomeText.setText("Please enter the name of grocery item you'd like to add and which list you'd like to sort it in.");
+        welcomeText.setText("Please enter new grocery item: ");
+        //Scanner newItem = new Scanner(System.in);
     }
     //get grocery item name
     public void submit(ActionEvent event) {
